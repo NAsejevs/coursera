@@ -1,7 +1,7 @@
 angular.module('NarrowItDownApp',[])
 .controller('NarrowItDownController', NarrowItDownController)
 .service('MenuSearchService', MenuSearchService)
-.directive('foundItems',FoundItems);//should disply found list
+.directive('foundItems',FoundItems);
 function FoundItems(){
     var ddo={
     templateUrl:'foundItems.html',
